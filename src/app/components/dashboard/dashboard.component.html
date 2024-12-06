@@ -15,6 +15,7 @@
     </div>
 
     <div class="view-wrapper">
+        
         <div #userVideosContainer class="video-container">
             <div class="no-video" *ngIf="!(userVideos$ | async); else videos">
                 <h3>No videos found, click on the + button to get started!</h3>
