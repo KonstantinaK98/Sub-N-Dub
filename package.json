@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy:gh": "ng build --configuration production --base-href='https://konstantinak98.github.io/Sub-N-Dub/' && ngh"
   },
   "private": true,
   "dependencies": {
@@ -30,7 +31,7 @@
     "firebase-tools": "^13.10.2",
     "jszip": "^3.10.1",
     "ngx-color-picker": "^14.0.0",
-    "openai": "^4.24.1",
+    "openai": "^4.76.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.3"
