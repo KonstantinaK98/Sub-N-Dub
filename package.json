@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy:gh": "ng build --configuration production --base-href='https://konstantinak98.github.io/Sub-N-Dub/' && ngh"
+    "deploy:gh": "ng build --configuration production --base-href='https://konstantinak98.github.io/Sub-N-Dub/'"
   },
   "private": true,
   "dependencies": {
