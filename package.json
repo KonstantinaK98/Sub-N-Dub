@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "deploy:gh": "ng build --configuration production --base-href='https://konstantinak98.github.io/Sub-N-Dub/'"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -24,14 +23,13 @@
     "@angular/platform-browser-dynamic": "^16.2.12",
     "@angular/router": "^16.2.12",
     "@angular/youtube-player": "^15.2.9",
-    "angular-cli-ghpages": "^2.0.3",
     "emailjs-com": "^3.2.0",
     "file-saver": "^2.0.5",
     "firebase": "^9.23.0",
     "firebase-tools": "^13.10.2",
     "jszip": "^3.10.1",
     "ngx-color-picker": "^14.0.0",
-    "openai": "^4.76.0",
+    "openai": "^4.24.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.3"
